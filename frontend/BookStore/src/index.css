@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@plugin "daisyui";
+
+@custom-variant dark (&:where(.dark, .dark *));
+/* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
+
+
+html{
+    background-color: white;
+    color: black;
+    
+}
+/* #root{
+    background-color: white;
+    color: black;
+} */
